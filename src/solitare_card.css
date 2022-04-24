@@ -1,0 +1,100 @@
+.solitare-container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.solitare-card {
+  height: 25vh;
+  background-color: white;
+  width: 20vw;
+  border: 1px solid black;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.solitare-card span {
+  height: 20vh;
+}
+
+.header {
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+
+.solitare-content {
+  position: relative;
+  top: 0px;
+  margin: 0;
+}
+
+.footer {
+  position: relative;
+  bottom: 15px;
+  right: -45px;
+}
+.card-9-header {
+  top: 11px;
+}
+.card-8-header {
+  top: 5px;
+}
+.card-7-header {
+  top: 5px;
+}
+.card-6-header {
+  top: 4px;
+}
+.card-5-header {
+  top: 4px;
+}
+.card-4-header {
+  top: 1px;
+}
+.card-3-header {
+  top: 2px;
+}
+.card-2-header {
+  top: 1px;
+}
+.card-A-header {
+  top: -10px;
+}
+
+.card-9-footer {
+  bottom: 5px;
+}
+.card-8-footer {
+  bottom: 0px;
+}
+.card-7-footer {
+  bottom: 0px;
+}
+.card-6-footer {
+  bottom: 0px;
+}
+.card-5-footer {
+  bottom: -1px;
+}
+.card-4-footer {
+  bottom: -8px;
+}
+.card-3-footer {
+  bottom: -8px;
+}
+.card-2-footer {
+  bottom: -8px;
+}
+.card-A-footer {
+  bottom: -8px;
+}
+
+.solitare-content:nth-child(1) {
+  transform: scaleY(-1);
+}
