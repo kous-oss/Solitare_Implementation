@@ -4,6 +4,7 @@
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
-
+  width: 100vw;
+  overflow-x: scroll;
   background-color: green;
 }

@@ -1,10 +1,11 @@
 import "./styles.css";
-import SolitareContainer from "./SolitareCard.js";
+import React, { useState } from "react";
+import SolitareContainer from "./SolitareContainer.js";
 
 export default function App() {
   return (
     <div className="App">
-      <SolitareContainer symbol="heart" color="black" />
+      <SolitareContainer symbol="heart" color="" />
     </div>
   );
 }
